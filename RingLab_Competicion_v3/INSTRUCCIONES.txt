@@ -1,0 +1,34 @@
+RINGLAB — COMPETICIÓN EXPERIMENTAL (WINDOWS)
+================================================
+Esta versión reúne seguimiento propio experimental, selección por sombra y cuatro
+modos de clics. No fue probada en BoomBang ni se puede asegurar que mejore victorias.
+
+INSTALACIÓN
+1. Instalá Python 3.11 o posterior.
+2. En la carpeta, abrí terminal y ejecutá:
+   py -m pip install -r requirements.txt
+   py ringlab_desktop.py
+3. Calibrá el área del Ring, una sombra, tu personaje, tu apariencia y el guante.
+4. Empezá con «Probar detección (sin clics)».
+5. Si el seguimiento pierde tu personaje, no actúa. F8 detiene el programa.
+6. No cambies zoom/resolución después de calibrar.
+
+MODOS
+proximity: ráfagas configurables cuando detecta sombra cerca.
+continuous: un clic por ciclo de 0,08 s si hay objetivo.
+short_burst: 3 clics, ciclo mínimo 0,15 s.
+long_burst: 5 clics, ciclo mínimo 0,25 s.
+Ninguno tiene ventaja demostrada. El servidor decide los golpes.
+
+ESTRATEGIA DE PRUEBAS
+Usá la hoja CSV para registrar al menos 20 enfrentamientos por modo,
+contra rivales comparables. Anotá resultados, no solo sensaciones.
+Probá por separado sin auto y con auto. No mezcles clic manual y automático.
+
+LIMITACIONES IMPORTANTES
+- La detección usa coincidencia de imagen; puede confundirse con decoraciones.
+- El seguimiento propio falla con transformaciones o superposiciones.
+- Las sombras pueden cambiar con escala, zoom y animación.
+- No predice prioridades del servidor ni compensa mágicamente el ping.
+- Seleccionar automáticamente y atacar podría ser sancionable.
+- No incluye técnicas de evasión de controles, ni lectura de memoria/red.

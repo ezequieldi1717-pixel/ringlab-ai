@@ -1,0 +1,27 @@
+RINGLAB — RESULTADOS DE INVESTIGACIÓN (24/10/2026)
+==================================================
+CONFIRMADO EN COMUNICACIÓN OFICIAL DE BOOMBANG (08/10/2026)
+https://www.boombang.tv/es/news/upperall-que-hicimos-y-por-que-ya-no-sirve-938
+- El servidor recibe órdenes de upper y aplica medidas contra la ventaja de UpperAll.
+- La selección automática de un rival que se acerca ya no da prioridad frente a
+  quien lo tiene fichado manualmente.
+- El autoclick convencional continúa permitido; herramientas tipo UpperAll
+  pueden acarrear pérdida de puntos o de la cuenta.
+
+GUÍA DE COMUNIDAD (28/03/2018) — NO CONFIRMACIÓN ACTUAL
+https://www.boombang.tv/es/foro/tema/guia-consejos-para-ring-21902
+- Sugiere activar el autoclick al acercarse y apagarlo al moverse.
+- Recomienda movimiento diagonal y evitar enfrentamientos innecesarios.
+- Una recomendación antigua no demuestra superioridad en 2026.
+
+CONCLUSIÓN DE DISEÑO
+No hay evidencia suficiente de que más CPS, ráfagas o seleccionar por sombras
+aumenten la prioridad del servidor. El software actual es un experimento, no
+un sistema con porcentaje de victoria validado.
+
+ORDEN DE PRIORIDADES
+1. Confirmar que el detector distingue sombras reales sin falsos positivos.
+2. Confirmar que el seguimiento propio no confunde identidades.
+3. Medir tasas de acierto y victoria por modo con el mismo tipo de rivales.
+4. Mantener el modo ganador solo si la diferencia se repite.
+5. Abandonar automatizaciones que no mejoren resultados o causen bloqueos.
